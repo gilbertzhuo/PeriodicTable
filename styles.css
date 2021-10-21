@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #202e38;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    margin: 2em auto 0;
+    margin-bottom: 1em;
+    font-size: 3vw;
+    color: #f1f5f6;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    width: 4.5vw;
+    height: 4.5vw;
+    font-size: 2vw;
+}
+
+td:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    color: white;
+    background: lightseagreen;
+}
+
+td:empty {
+    visibility: hidden;
+}
